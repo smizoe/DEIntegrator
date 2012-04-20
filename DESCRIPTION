@@ -1,0 +1,17 @@
+Package: DEIntegrator
+Type: Package
+Title: A package for fast numerical integration
+Version: 1.0
+Date: 2011-12-13
+Author: Sho Mizoe
+Maintainer: Sho Mizoe <sho_mizoe@mist.i.u-tokyo.ac.jp>
+Description: This package contains a function which performs
+             numerical integration based on double exponential formula.
+	     The main code (header), which includes double exponential formula,
+	     is written by John D. Cook. The header is available
+	     at http://www.codeproject.com/ .
+License: file LICENSE 
+SystemRequirements:Boost library from http://www.boost.org
+Depends: Rcpp (>= 0.9.7)
+LinkingTo: Rcpp
+RcppModules: DEBody
